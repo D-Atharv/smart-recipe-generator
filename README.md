@@ -239,6 +239,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Prisma](https://prisma.io/) for excellent database tooling
 
 ## 📞 Support
-- 📧 Email: support@recipesnap.com
 - 🐛 Issues: [GitHub Issues](https://github.com/D-Atharv/smart-recipe-generator)
 - 💬 Discussions: [GitHub Discussions](https://github.com/D-Atharv)
