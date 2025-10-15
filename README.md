@@ -1,7 +1,3 @@
-This is a fantastic README that’s both detailed and engaging for developers and users alike! It strikes a great balance between technical depth and accessibility. I’ve just made a couple of small tweaks for clarity and flow, but overall, it looks great and ready for the project’s GitHub repository. Here’s the revised version:
-
----
-
 # Recipe Snap 🍳📸
 
 Transform your ingredients into delicious meals with AI-powered recipe generation. Snap a photo of your ingredients and discover what you can cook!
@@ -51,7 +47,6 @@ Transform your ingredients into delicious meals with AI-powered recipe generatio
 - **Google Gemini** - Advanced vision and language models
 - **Prisma** - Type-safe database ORM
 - **PostgreSQL** - Robust relational database
-- **Firebase** - Authentication and real-time features
 
 ### Development Tools
 - **ESLint** - Code linting and formatting
@@ -245,5 +240,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 - 📧 Email: support@recipesnap.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/smart-recipe-generator/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-username
+- 🐛 Issues: [GitHub Issues](https://github.com/D-Atharv/smart-recipe-generator)
+- 💬 Discussions: [GitHub Discussions](https://github.com/D-Atharv)
