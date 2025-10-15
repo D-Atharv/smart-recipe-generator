@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String     @id @default(uuid())
+  name      String
+  email     String     @unique
+  password  String
+  favorites Favorite[]
+  ratings   Rating[]
+  createdAt DateTime   @default(now())
+}
+
+model Recipe {
+  id          String             @id @default(uuid())
+  title       String
+  description String?
+  imageUrl    String?
+  difficulty  String // "easy", "medium", "hard"
+  diet        String? // e.g., "vegan", "vegetarian"
+  popularity  Int                @default(0)
+  ingredients RecipeIngredient[]
+  ratings     Rating[]
+  favorites   Favorite[]
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+}
+
+model Ingredient {
+  id         String             @id @default(uuid())
+  name       String             @unique
+  synonyms   String[]           @default([])
+  embeddings Float[] // optional for semantic search
+  recipes    RecipeIngredient[]
+  createdAt  DateTime           @default(now())
+}
+
+model RecipeIngredient {
+  id           String     @id @default(uuid())
+  recipe       Recipe     @relation(fields: [recipeId], references: [id])
+  recipeId     String
+  ingredient   Ingredient @relation(fields: [ingredientId], references: [id])
+  ingredientId String
+  quantity     Float? // optional
+  unit         String? // optional (grams, ml, etc.)
+  weight       Float      @default(1.0) // for scoring
+}
+
+model Favorite {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  recipe    Recipe   @relation(fields: [recipeId], references: [id])
+  recipeId  String
+  createdAt DateTime @default(now())
+}
+
+model Rating {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  recipe    Recipe   @relation(fields: [recipeId], references: [id])
+  recipeId  String
+  score     Int // 1–5
+  comment   String?
+  createdAt DateTime @default(now())
+}

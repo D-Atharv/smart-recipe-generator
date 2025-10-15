@@ -1,0 +1,124 @@
+{
+  "placeholderImages": [
+    {
+      "id": "recipe_1",
+      "description": "Spaghetti Carbonara",
+      "imageUrl": "https://picsum.photos/seed/recipe_1/600/400",
+      "imageHint": "spaghetti carbonara"
+    },
+    {
+      "id": "recipe_2",
+      "description": "Classic Margherita Pizza",
+      "imageUrl": "https://picsum.photos/seed/recipe_2/600/400",
+      "imageHint": "margherita pizza"
+    },
+    {
+      "id": "recipe_3",
+      "description": "Chicken Alfredo",
+      "imageUrl": "https://picsum.photos/seed/recipe_3/600/400",
+      "imageHint": "chicken alfredo"
+    },
+    {
+      "id": "recipe_4",
+      "description": "Vegetarian Chili",
+      "imageUrl": "https://picsum.photos/seed/recipe_4/600/400",
+      "imageHint": "vegetarian chili"
+    },
+    {
+      "id": "recipe_5",
+      "description": "Beef Tacos",
+      "imageUrl": "https://picsum.photos/seed/recipe_5/600/400",
+      "imageHint": "beef tacos"
+    },
+    {
+      "id": "recipe_6",
+      "description": "Chicken Caesar Salad",
+      "imageUrl": "https://picsum.photos/seed/recipe_6/600/400",
+      "imageHint": "caesar salad"
+    },
+    {
+      "id": "recipe_7",
+      "description": "Creamy Tomato Soup",
+      "imageUrl": "https://picsum.photos/seed/recipe_7/600/400",
+      "imageHint": "tomato soup"
+    },
+    {
+      "id": "recipe_8",
+      "description": "Chocolate Chip Cookies",
+      "imageUrl": "https://picsum.photos/seed/recipe_8/600/400",
+      "imageHint": "chocolate cookies"
+    },
+    {
+      "id": "recipe_9",
+      "description": "Lemon Herb Roast Chicken",
+      "imageUrl": "https://picsum.photos/seed/recipe_9/600/400",
+      "imageHint": "roast chicken"
+    },
+    {
+      "id": "recipe_10",
+      "description": "Vegan Buddha Bowl",
+      "imageUrl": "https://picsum.photos/seed/recipe_10/600/400",
+      "imageHint": "buddha bowl"
+    },
+    {
+      "id": "recipe_11",
+      "description": "Gluten-Free Pancakes",
+      "imageUrl": "https://picsum.photos/seed/recipe_11/600/400",
+      "imageHint": "pancakes breakfast"
+    },
+    {
+      "id": "recipe_12",
+      "description": "Baked Salmon with Asparagus",
+      "imageUrl": "https://picsum.photos/seed/recipe_12/600/400",
+      "imageHint": "baked salmon"
+    },
+    {
+      "id": "recipe_13",
+      "description": "Mushroom Risotto",
+      "imageUrl": "https://picsum.photos/seed/recipe_13/600/400",
+      "imageHint": "mushroom risotto"
+    },
+    {
+      "id": "recipe_14",
+      "description": "Caprese Salad",
+      "imageUrl": "https://picsum.photos/seed/recipe_14/600/400",
+      "imageHint": "caprese salad"
+    },
+    {
+      "id": "recipe_15",
+      "description": "Easy Chicken Curry",
+      "imageUrl": "https://picsum.photos/seed/recipe_15/600/400",
+      "imageHint": "chicken curry"
+    },
+    {
+      "id": "recipe_16",
+      "description": "Classic Lentil Soup",
+      "imageUrl": "https://picsum.photos/seed/recipe_16/600/400",
+      "imageHint": "lentil soup"
+    },
+    {
+      "id": "recipe_17",
+      "description": "Quick Beef Stir-Fry",
+      "imageUrl": "https://picsum.photos/seed/recipe_17/600/400",
+      "imageHint": "beef stir-fry"
+    },
+    {
+      "id": "recipe_18",
+      "description": "Gourmet Avocado Toast",
+      "imageUrl": "https://picsum.photos/seed/recipe_18/600/400",
+      "imageHint": "avocado toast"
+    },
+    {
+      "id": "recipe_19",
+      "description": "Mediterranean Quinoa Salad",
+      "imageUrl": "https://picsum.photos/seed/recipe_19/600/400",
+      "imageHint": "quinoa salad"
+    },
+    {
+      "id": "recipe_20",
+      "description": "Classic Apple Pie",
+      "imageUrl": "https://picsum.photos/seed/recipe_20/600/400",
+      "imageHint": "apple pie"
+    }
+  ]
+}
