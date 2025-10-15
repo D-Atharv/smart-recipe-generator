@@ -163,7 +163,7 @@ export function RecipeGrid({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div className="md:col-span-1 self-start sticky top-20">
+        <div className="md:col-span-1 self-start">
           <Card>
             <CardContent className="p-4">
               <h3 className="font-headline text-lg font-semibold mb-4">
