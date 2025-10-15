@@ -2,123 +2,63 @@
   "placeholderImages": [
     {
       "id": "recipe_1",
-      "description": "Spaghetti Carbonara",
-      "imageUrl": "https://picsum.photos/seed/recipe_1/600/400",
-      "imageHint": "spaghetti carbonara"
+      "description": "Steamed Chicken Salad",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/world-recipes/Steamed_Chicken_with_Salad_Recipe_0b06caffee.jpg",
+      "imageHint": "steamed chicken salad"
     },
     {
       "id": "recipe_2",
-      "description": "Classic Margherita Pizza",
-      "imageUrl": "https://picsum.photos/seed/recipe_2/600/400",
-      "imageHint": "margherita pizza"
+      "description": "Spiced Mulled Apple Juice",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/drink-recipes/Spiced_Mulled_Apple_Juice_2aff17663f.jpg",
+      "imageHint": "mulled apple juice"
     },
     {
       "id": "recipe_3",
-      "description": "Chicken Alfredo",
-      "imageUrl": "https://picsum.photos/seed/recipe_3/600/400",
-      "imageHint": "chicken alfredo"
+      "description": "Refreshing Basil Tea",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/drink-recipes/Basil_Tea_Recipe_2a031e7ed7.jpg",
+      "imageHint": "basil tea"
     },
     {
       "id": "recipe_4",
-      "description": "Vegetarian Chili",
-      "imageUrl": "https://picsum.photos/seed/recipe_4/600/400",
-      "imageHint": "vegetarian chili"
+      "description": "Creamy Cinnamon Peach Milkshake",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/drink-recipes/Creamy_Cinnamon_Peach_Milkshake_Recipe_10_bd75242363.jpg",
+      "imageHint": "cinnamon peach milkshake"
     },
     {
       "id": "recipe_5",
-      "description": "Beef Tacos",
-      "imageUrl": "https://picsum.photos/seed/recipe_5/600/400",
-      "imageHint": "beef tacos"
+      "description": "Sparkling Strawberry Mocktail",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/drink-recipes/Sparkling_Strawberry_Mocktail_c2ee05071b.jpg",
+      "imageHint": "strawberry mocktail"
     },
     {
       "id": "recipe_6",
-      "description": "Chicken Caesar Salad",
-      "imageUrl": "https://picsum.photos/seed/recipe_6/600/400",
-      "imageHint": "caesar salad"
+      "description": "Eggless Tiramisu Dessert",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Eggless_Tiramisu_Recipe_8273ac592b.jpg",
+      "imageHint": "eggless tiramisu"
     },
     {
       "id": "recipe_7",
-      "description": "Creamy Tomato Soup",
-      "imageUrl": "https://picsum.photos/seed/recipe_7/600/400",
-      "imageHint": "tomato soup"
+      "description": "Buckwheat & Oat Waffles with Banana",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/buckwheat_and_oat_waffles_with_bananas_and_vanilla_ice_cream_recipe_1_f205d7ccfd.jpg",
+      "imageHint": "buckwheat oat waffles"
     },
     {
       "id": "recipe_8",
-      "description": "Chocolate Chip Cookies",
-      "imageUrl": "https://picsum.photos/seed/recipe_8/600/400",
-      "imageHint": "chocolate cookies"
+      "description": "No-Bake Lemon Bars",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/No_Bake_Lemon_Bars_Recipe_1_066c7d5da2.jpg",
+      "imageHint": "lemon bars"
     },
     {
       "id": "recipe_9",
-      "description": "Lemon Herb Roast Chicken",
-      "imageUrl": "https://picsum.photos/seed/recipe_9/600/400",
-      "imageHint": "roast chicken"
+      "description": "Italian Classic Tiramisu",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/medium_Italian_Traditional_Classic_Tiramisu_recipe_1_921db8dd48.jpg",
+      "imageHint": "classic tiramisu"
     },
     {
       "id": "recipe_10",
-      "description": "Vegan Buddha Bowl",
-      "imageUrl": "https://picsum.photos/seed/recipe_10/600/400",
-      "imageHint": "buddha bowl"
-    },
-    {
-      "id": "recipe_11",
-      "description": "Gluten-Free Pancakes",
-      "imageUrl": "https://picsum.photos/seed/recipe_11/600/400",
-      "imageHint": "pancakes breakfast"
-    },
-    {
-      "id": "recipe_12",
-      "description": "Baked Salmon with Asparagus",
-      "imageUrl": "https://picsum.photos/seed/recipe_12/600/400",
-      "imageHint": "baked salmon"
-    },
-    {
-      "id": "recipe_13",
-      "description": "Mushroom Risotto",
-      "imageUrl": "https://picsum.photos/seed/recipe_13/600/400",
-      "imageHint": "mushroom risotto"
-    },
-    {
-      "id": "recipe_14",
-      "description": "Caprese Salad",
-      "imageUrl": "https://picsum.photos/seed/recipe_14/600/400",
-      "imageHint": "caprese salad"
-    },
-    {
-      "id": "recipe_15",
-      "description": "Easy Chicken Curry",
-      "imageUrl": "https://picsum.photos/seed/recipe_15/600/400",
-      "imageHint": "chicken curry"
-    },
-    {
-      "id": "recipe_16",
-      "description": "Classic Lentil Soup",
-      "imageUrl": "https://picsum.photos/seed/recipe_16/600/400",
-      "imageHint": "lentil soup"
-    },
-    {
-      "id": "recipe_17",
-      "description": "Quick Beef Stir-Fry",
-      "imageUrl": "https://picsum.photos/seed/recipe_17/600/400",
-      "imageHint": "beef stir-fry"
-    },
-    {
-      "id": "recipe_18",
-      "description": "Gourmet Avocado Toast",
-      "imageUrl": "https://picsum.photos/seed/recipe_18/600/400",
-      "imageHint": "avocado toast"
-    },
-    {
-      "id": "recipe_19",
-      "description": "Mediterranean Quinoa Salad",
-      "imageUrl": "https://picsum.photos/seed/recipe_19/600/400",
-      "imageHint": "quinoa salad"
-    },
-    {
-      "id": "recipe_20",
-      "description": "Classic Apple Pie",
-      "imageUrl": "https://picsum.photos/seed/recipe_20/600/400",
-      "imageHint": "apple pie"
+      "description": "No-Churn Strawberry Ice Cream",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/medium_No_Churn_Strawberry_Ice_Cream_recipe_2_673cb817b3.jpg",
+      "imageHint": "strawberry ice cream"
     }
   ]
 }

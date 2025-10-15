@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChefHat, Menu, Sparkles, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 function NavLinks({
   isMobile,
@@ -22,7 +23,7 @@ function NavLinks({
       className={
         isMobile
           ? "flex flex-col gap-6"
-          : "hidden md:flex md:items-center md:gap-4"
+          : "hidden md:flex md:items-center md:gap-4 "
       }
     >
       <Link href="/snap" className={linkClass} onClick={onLinkClick}>
@@ -52,6 +53,9 @@ function NavLinks({
       </Link>
       <Link href="/favorites" className={linkClass} onClick={onLinkClick}>
         Favorites
+      </Link>
+      <Link href="/about" className={linkClass} onClick={onLinkClick}>
+        About
       </Link>
     </nav>
   );
@@ -88,6 +92,9 @@ export function AppHeader() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="pr-0">
+                <VisuallyHidden>
+                  <h2>Mobile Navigation Menu</h2>
+                </VisuallyHidden>
                 <div className="flex flex-col h-full p-6">
                   <Link
                     href="/"

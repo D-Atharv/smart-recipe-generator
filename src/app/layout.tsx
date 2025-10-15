@@ -29,7 +29,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-body antialiased" suppressHydrationWarning>
+      <body className="font-body antialiased bg-grid" suppressHydrationWarning>
         <Providers>
           <RecognizedIngredientsProvider>
             <div className="relative flex min-h-screen flex-col">
@@ -43,5 +43,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-

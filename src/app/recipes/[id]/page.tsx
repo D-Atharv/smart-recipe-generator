@@ -5,7 +5,6 @@ import { getImageById } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { Clock, BarChart, Users, Soup } from "lucide-react";
 import { SubstitutionSuggester } from "@/components/substitution-suggester";
-import { Recipe } from "@/types";
 import { Separator } from "@/components/ui/separator";
 import RecipeCard from "@/components/recipe/recipe-card";
 import { RecipeRating } from "@/components/recipe/recipe-rating";
@@ -16,9 +15,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function RecipePage({ params }: { params: { id: string } }) {
-  const recipe = getRecipeById(parseInt(params.id, 10));
-
+export default async function RecipePage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const { id } = await params;
+  const recipe = getRecipeById(parseInt(id, 10));
   if (!recipe) {
     notFound();
   }
