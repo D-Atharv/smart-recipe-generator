@@ -9,12 +9,6 @@ export function combinedSearch(
   difficultyFilters: string[],
   allRecipes: Recipe[]
 ): (Recipe & any)[] {
-  console.log("🚀 Starting combined search...");
-  console.log("Recognized Ingredients:", recognizedIngredients);
-  console.log("Dietary Filters:", dietaryFilters);
-  console.log("Difficulty Filters:", difficultyFilters);
-  console.log("Query Embedding:", queryEmbedding);
-
   if (recognizedIngredients.length === 0) {
     return [];
   }

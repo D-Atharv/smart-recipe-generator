@@ -59,6 +59,192 @@
       "description": "No-Churn Strawberry Ice Cream",
       "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/medium_No_Churn_Strawberry_Ice_Cream_recipe_2_673cb817b3.jpg",
       "imageHint": "strawberry ice cream"
+    },
+    {
+      "id": "recipe_11",
+      "description": "Chia Seed Pudding Recipe With Coconut Milk And Fresh Mangoes",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Chia_Seed_Pudding_Recipe_With_Coconut_Milk_Fresh_Mangoes_3_32030d602b.jpg",
+      "imageHint": "chia seed pudding with coconut milk and fresh mangoes"
+    },
+    {
+      "id": "recipe_12",
+      "description": "No Bake Eggless Mango Cheesecake Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Eggless_No_Bake_Mango_Cheesecake_video_recipe_cheesy_kitchen_britannia_15_c0ce3c9b4e.jpg",
+      "imageHint": "no bake eggless mango cheesecake"
+    },
+    {
+      "id": "recipe_13",
+      "description": "Aish el Saraya Recipe - Lebanese Bread Pudding | Middle Eastern Dessert",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Aish_El_Saraya_Recipe_Lebanese_Dessert_Pudding_18_947dc5501a.jpg",
+      "imageHint": "aish el saraya lebanese bread pudding"
+    },
+    {
+      "id": "recipe_14",
+      "description": "Churros Recipe With Cinnamon & Sugar | Eggless Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Homemade_Mexican_Spanish_Churros_Recipe_Eggless_9_08379571d1.jpg",
+      "imageHint": "churros with cinnamon and sugar"
+    },
+    {
+      "id": "recipe_15",
+      "description": "3 Ingredients Banana Ice Cream Recipe - Healthy Version",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/3_ingredients_banana_icecream_Healthy_Version_f751a3819d.jpg",
+      "imageHint": "3 ingredients banana ice cream healthy version"
+    },
+    {
+      "id": "recipe_16",
+      "description": "French Crullers Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/French_Crullers_recipe_61754d216b.jpg",
+      "imageHint": "french crullers"
+    },
+    {
+      "id": "recipe_17",
+      "description": "Chocolate Dipped Eggless Coconut Macaroon Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Chocolate_dipped_eggless_coconut_macaroons_with_a_twist_78151f2334.jpg",
+      "imageHint": "chocolate dipped eggless coconut macaroon"
+    },
+    {
+      "id": "recipe_18",
+      "description": "Frozen Strawberry Souffle",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Frozen_strawberry_souffle_55f269860b.jpg",
+      "imageHint": "frozen strawberry souffle"
+    },
+    {
+      "id": "recipe_19",
+      "description": "Chocolate Salted Caramel Tart Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Chocolate_salted_Caramel_Tart_1d5a49434f.jpg",
+      "imageHint": "chocolate salted caramel tart"
+    },
+    {
+      "id": "recipe_20",
+      "description": "Tiramisu Gingerbread Cupcake Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/tiramisu_ginger_bread_cupcake_eggless_egg_free_recipe_shutterstock_210442321_99cd9de80b.jpg",
+      "imageHint": "tiramisu gingerbread cupcake"
+    },
+    {
+      "id": "recipe_21",
+      "description": "Æbleskivers Recipe- Danish Chocolate Pancake Puffs",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Mexicano_Chocolate_bleskivers_Recipe_Danish_Chocolate_Pancake_Puffs_cafde05bcf.jpg",
+      "imageHint": "aebleskivers danish chocolate pancake puffs"
+    },
+    {
+      "id": "recipe_22",
+      "description": "Balinese Black Rice Pudding Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Balinese_Black_rice_pudding_recipe_with_coconut_milk_1_1fd67e43e1.jpg",
+      "imageHint": "balinese black rice pudding"
+    },
+    {
+      "id": "recipe_23",
+      "description": "Black And Green Grapes Panna Cotta",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Black_Green_Grapes_Pannacotta_e4ea826a29.jpg",
+      "imageHint": "black and green grapes panna cotta"
+    },
+    {
+      "id": "recipe_24",
+      "description": "Butterscotch Marshmallow Mousse Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Butterscotch_Marshmallow_Mousse_86276dc907.jpg",
+      "imageHint": "butterscotch marshmallow mousse"
+    },
+    {
+      "id": "recipe_25",
+      "description": "Eggless Peach Cobbler Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Eggless_Fresh_Peach_Cobbler_57256a7b0d.jpg",
+      "imageHint": "eggless peach cobbler"
+    },
+    {
+      "id": "recipe_26",
+      "description": "Eggless Cake Pops Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Eggless_Cake_Pops_Recipe_i_be80d2394f.jpg",
+      "imageHint": "eggless cake pops"
+    },
+    {
+      "id": "recipe_27",
+      "description": "No Bake Mango and Yogurt Cheesecake Recipe with Raspberries",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/No_Bake_Mango_and_Yogurt_Cheesecake_with_Raspberries_cadf18a8e7.jpg",
+      "imageHint": "no bake mango and yogurt cheesecake with raspberries"
+    },
+    {
+      "id": "recipe_28",
+      "description": "Coconut Tapioca Pudding with Spicy Strawberry Sauce",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Coconut_Tapioca_Pudding_with_Spicy_Strawberry_Sauce_1_a2ec8029f2.jpg",
+      "imageHint": "coconut tapioca pudding with spicy strawberry sauce"
+    },
+    {
+      "id": "recipe_29",
+      "description": "Burnt Orange Panacotta Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Burnt_Orange_Panacotta_Recipe_d7eaf998eb.jpg",
+      "imageHint": "burnt orange panacotta"
+    },
+    {
+      "id": "recipe_30",
+      "description": "Chocolate Filled Dessert Cups with Raspberry Topping",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Chocolate_Filled_Pumpkin_Cupcake_Recipe_with_Raspberry_Topping_1_b6996a4590.jpg",
+      "imageHint": "chocolate filled dessert cups with raspberry topping"
+    },
+    {
+      "id": "recipe_31",
+      "description": "Kesar Pista Mango Ice Cream Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Kesar_Pista_Mango_Icecream_b3f88fc0be.jpg",
+      "imageHint": "kesar pista mango ice cream"
+    },
+    {
+      "id": "recipe_32",
+      "description": "Coconut Chocolate Balls Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/3_ingredients_Coconut_chocolate_balls_52dcfa9ecb.jpg",
+      "imageHint": "coconut chocolate balls"
+    },
+    {
+      "id": "recipe_33",
+      "description": "The Baileys Irish Cream Bread Pudding",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/bread_pudding_recipe_shutterstock_176013206_f963021791.jpg",
+      "imageHint": "the baileys irish cream bread pudding"
+    },
+    {
+      "id": "recipe_34",
+      "description": "Delicious Arabic Sweet Kunafa Recipe (Knafeh)",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/KUNAFA_KNAFEH_f91d7af5dd.jpg",
+      "imageHint": "delicious arabic sweet kunafa (knafeh)"
+    },
+    {
+      "id": "recipe_35",
+      "description": "Baked Yogurt with Honey & Cinnamon Grilled Fruits Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Baked_yogurt_with_honey_cinnamon_grilled_fruits_bb64fd2949.jpg",
+      "imageHint": "baked yogurt with honey and cinnamon grilled fruits"
+    },
+    {
+      "id": "recipe_36",
+      "description": "Plum Clafouti Recipe (French Style Batter Pudding)",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Plum_Clafouti_French_style_batter_pudding_1043cc5a26.jpg",
+      "imageHint": "plum clafouti french style batter pudding"
+    },
+    {
+      "id": "recipe_37",
+      "description": "No Bake White Chocolate Cheesecake Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/White_Chocolate_Cheesecake_No_Bake_8a6f584086.jpg",
+      "imageHint": "no bake white chocolate cheesecake"
+    },
+    {
+      "id": "recipe_38",
+      "description": "Eggless Saffron Yogurt Mousse Recipe with Cardamom & Nuts",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Saffron_Yogurt_Mousse_Recipe_22_a6146450a8.jpg",
+      "imageHint": "eggless saffron yogurt mousse with cardamom and nuts"
+    },
+    {
+      "id": "recipe_39",
+      "description": "Rose Greek Yogurt Dessert Recipe with Pista & Coconut",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Rose_Greek_Yogurt_Dessert_Recipe_With_Pista_Coconut_3_1cf23dcd20.jpg",
+      "imageHint": "rose greek yogurt dessert with pista and coconut"
+    },
+    {
+      "id": "recipe_40",
+      "description": "Rich Dark Chocolate Mousse Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Sprig_Bourbon_Vanilla_Rich_Chocolate_Mousse_Recipe_1_38ae4b5f6f.jpg",
+      "imageHint": "rich dark chocolate mousse"
+    },
+    {
+      "id": "recipe_41",
+      "description": "Whole Wheat Chocolate Cinnamon Cupcakes Recipe",
+      "imageUrl": "https://images.archanaskitchen.com/images/recipes/dessert-recipes/Whole_Wheat_Chocolate_Cinnamon_Cupcakes_d64135403e.jpg",
+      "imageHint": "whole wheat chocolate cinnamon cupcakes"
     }
   ]
 }

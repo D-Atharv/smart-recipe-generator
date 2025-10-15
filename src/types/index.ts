@@ -23,5 +23,5 @@ export type Recipe = {
   imageId: string; // Corresponds to ID in placeholder-images.json
   matchCount?: number;
   relevanceScore?: number;
-  textForEmbedding: string;
+  textForEmbedding?: string;
 };
