@@ -1,13 +1,14 @@
-import { notFound } from 'next/navigation';
-import Image from 'next/image';
-import { allRecipes, getRecipeById } from '@/data/recipes';
-import { getImageById } from '@/lib/placeholder-images';
-import { Badge } from '@/components/ui/badge';
-import { Clock, BarChart, Users, Soup, Star } from 'lucide-react';
-import { SubstitutionSuggester } from '@/components/substitution-suggester';
-import { Recipe } from '@/types';
-import { Separator } from '@/components/ui/separator';
-import RecipeCard from '@/components/recipe/recipe-card';
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import { allRecipes, getRecipeById } from "@/data/recipes";
+import { getImageById } from "@/lib/placeholder-images";
+import { Badge } from "@/components/ui/badge";
+import { Clock, BarChart, Users, Soup } from "lucide-react";
+import { SubstitutionSuggester } from "@/components/substitution-suggester";
+import { Recipe } from "@/types";
+import { Separator } from "@/components/ui/separator";
+import RecipeCard from "@/components/recipe/recipe-card";
+import { RecipeRating } from "@/components/recipe/recipe-rating";
 
 export async function generateStaticParams() {
   return allRecipes.map((recipe) => ({
@@ -37,7 +38,9 @@ export default function RecipePage({ params }: { params: { id: string } }) {
     <div className="container mx-auto max-w-5xl px-4 py-12">
       <div className="space-y-6">
         <div className="space-y-2">
-          <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl">{recipe.name}</h1>
+          <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl">
+            {recipe.name}
+          </h1>
           <p className="text-lg text-muted-foreground">{recipe.description}</p>
         </div>
 
@@ -56,7 +59,7 @@ export default function RecipePage({ params }: { params: { id: string } }) {
           )}
         </div>
 
-        <div className="grid grid-cols-2 gap-4 text-center md:grid-cols-5">
+        <div className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
           <div className="flex flex-col items-center justify-center gap-1 rounded-lg bg-card p-4">
             <Clock className="h-6 w-6 text-accent-foreground" />
             <span className="font-semibold">{recipe.cookingTime} min</span>
@@ -77,22 +80,32 @@ export default function RecipePage({ params }: { params: { id: string } }) {
             <span className="font-semibold">{recipe.cuisine}</span>
             <span className="text-sm text-muted-foreground">Cuisine</span>
           </div>
-          <div className="flex flex-col items-center justify-center gap-1 rounded-lg bg-card p-4">
-            <Star className="h-6 w-6 text-accent-foreground" />
-            <span className="font-semibold">{recipe.rating}/5</span>
-            <span className="text-sm text-muted-foreground">Rating</span>
-          </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
-          {recipe.dietaryTags.map((tag) => (
-            <Badge key={tag} variant="secondary">{tag}</Badge>
-          ))}
+        <div className="flex flex-wrap gap-2 items-center justify-between">
+          <div className="flex flex-wrap gap-2">
+            {recipe.dietaryTags.map((tag) => (
+              <Badge key={tag} variant="secondary">
+                {tag}
+              </Badge>
+            ))}
+          </div>
+          <div className="flex flex-col items-end">
+            <span className="text-sm font-medium text-muted-foreground mb-1">
+              Rate this recipe
+            </span>
+            <RecipeRating
+              initialRating={Math.round(recipe.rating)}
+              recipeName={recipe.name}
+            />
+          </div>
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
           <div className="md:col-span-1">
-            <h2 className="font-headline text-2xl font-semibold">Ingredients</h2>
+            <h2 className="font-headline text-2xl font-semibold">
+              Ingredients
+            </h2>
             <ul className="mt-4 space-y-2 text-muted-foreground">
               {recipe.ingredients.map((ing, index) => (
                 <li key={index} className="flex justify-between">
@@ -103,7 +116,9 @@ export default function RecipePage({ params }: { params: { id: string } }) {
             </ul>
           </div>
           <div className="md:col-span-2">
-            <h2 className="font-headline text-2xl font-semibold">Instructions</h2>
+            <h2 className="font-headline text-2xl font-semibold">
+              Instructions
+            </h2>
             <ol className="mt-4 list-decimal space-y-4 pl-5">
               {recipe.instructions.map((step, index) => (
                 <li key={index}>{step}</li>
@@ -111,22 +126,23 @@ export default function RecipePage({ params }: { params: { id: string } }) {
             </ol>
           </div>
         </div>
-        
+
         <Separator />
-        
+
         <SubstitutionSuggester recipe={recipe} />
 
         <Separator />
 
         <div>
-          <h2 className="font-headline text-3xl font-bold">You Might Also Like</h2>
+          <h2 className="font-headline text-3xl font-bold">
+            You Might Also Like
+          </h2>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {recommendedRecipes.map((rec) => (
               <RecipeCard key={rec.id} recipe={rec} />
             ))}
           </div>
         </div>
-
       </div>
     </div>
   );
